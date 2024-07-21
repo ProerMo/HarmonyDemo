@@ -1,0 +1,136 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "clear",
+      "value": "#00000000"
+    },
+    {
+      "name": "gray_979797",
+      "value": "#979797"
+    },
+    {
+      "name": "gray_848484",
+      "value": "#848484"
+    },
+    {
+      "name": "gray_666666",
+      "value": "#666666"
+    },
+    {
+      "name": "gray_f3f4f5",
+      "value": "#f3f4f5"
+    },
+    {
+      "name": "gray_999999",
+      "value": "#999999"
+    },
+    {
+      "name": "gray_dbdee4",
+      "value": "#DBDEE4"
+    },
+    {
+      "name": "gray_e8e7ee",
+      "value": "#e8e7ee"
+    },
+    {
+      "name": "gray_e8e8e8",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "blue_e8f3ff",
+      "value": "#e8f3ff"
+    },
+    {
+      "name": "gray_fa6d1d",
+      "value": "#FA6D1D"
+    },
+    {
+      "name": "gray_9b9da7",
+      "value": "#9b9da7"
+    },
+    {
+      "name": "green_41b883",
+      "value": "#41B883"
+    },
+    {
+      "name": "blue_3266ee",
+      "value": "#3266EE"
+    },
+    {
+      "name": "blue_edf2ff",
+      "value": "#EDF2FF"
+    },
+    {
+      "name": "blue_deeeff",
+      "value": "#DEEEFF"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "gray_edecf2",
+      "value": "#EDECF2"
+    },
+    {
+      "name": "gray_f2f2f2",
+      "value": "#f2f2f2"
+    },
+    {
+      "name": "gray_d8d8d8",
+      "value": "#D8D8D8"
+    },
+    {
+      "name": "blue_ec2e0ff",
+      "value": "#C2E0FF"
+    },
+    {
+      "name": "blue_409eff",
+      "value": "#409EFF"
+    },
+    {
+      "name": "blue_409eff_30",
+      "value": "#4D409EFF"
+    },
+    {
+      "name": "blue_409eff_50",
+      "value": "#80409EFF"
+    },
+    {
+      "name": "blue_1b82ec",
+      "value": "#1B82EC"
+    },
+    {
+      "name": "red_e33f3f",
+      "value": "#E33F3F"
+    },
+    {
+      "name": "gray_c9cdd4",
+      "value": "#C9CDD4"
+    },
+    {
+      "name": "green_1bd39e",
+      "value": "#1bd39e"
+    },
+    {
+      "name": "green_e0fff6",
+      "value": "#e0fff6"
+    },
+    {
+      "name": "red_ffe8e5",
+      "value": "#ffe8e5"
+    },
+    {
+      "name": "red_ffa399",
+      "value": "#ffa399"
+    }
+  ]
+}
