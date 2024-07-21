@@ -1,5 +1,6 @@
 import { window } from '@kit.ArkUI';
 import { StorageKeys } from './StorageKeys';
+import { Toast } from './ToastUtils';
 
 @Entry
 @Component
@@ -15,7 +16,9 @@ struct Index {
         .alignRules({
           center: { anchor: '__container__', align: VerticalAlign.Center },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
-        })
+        }).onClick((e)=>{
+          Toast.showSuccess("nihaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+      })
     }
     .height('100%')
     .width('100%')
