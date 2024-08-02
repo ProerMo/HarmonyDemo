@@ -125,12 +125,12 @@ export struct ToastComponent {
     }
 
 
-    //多行则mask为全宽度，单行则是控件宽度，这里*1.2是做一些兼容性处理
+    //多行则mask为全宽度，单行则是控件宽度，这里*1.1是做一些兼容性处理
     let singleLineMaskRectWidth =
       (config.parentPadding * 2 + config.iconWidth + config.spaceBetweenIconAndText + config.calTextWidth) * 1.1;
     let maskRectWidth = config.isMultiLine ? '100%' : singleLineMaskRectWidth;
 
-    //多行高度则是控件高度，单行则是 图标高度 或 文本行高 的较大者在加上 控件padding，这里*1.2是做一些兼容性处理
+    //多行高度则是控件高度，单行则是 图标高度 或 文本行高 的较大者在加上 控件padding，这里*1.1是做一些兼容性处理
     let maskRectHeight = (config.isMultiLine ? config.parentPadding * 2 + config.calTextHeight :
       (config.iconHeight > config.fontLineHeight ? config.iconHeight : config.fontLineHeight) +
         config.parentPadding * 2) * 1.1;

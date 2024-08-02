@@ -1,4 +1,5 @@
 import { window } from '@kit.ArkUI';
+import { CustomDialogUtils, CustomDialogView } from './CustomDialogUtils';
 import { StorageKeys } from './StorageKeys';
 import { Toast } from './ToastUtils';
 
@@ -6,19 +7,25 @@ import { Toast } from './ToastUtils';
 @Component
 struct Index {
   @State message: string = 'Hello World';
+  ctrl = new CustomDialogController({
+    builder: CustomDialogView(),
+    alignment: DialogAlignment.Center,
+    //设置为true，默认弹窗样式都会去掉
+    customStyle: true,
+  });
 
   build() {
-    RelativeContainer() {
-      Text(this.message)
-        .id('HelloWorld')
-        .fontSize(50)
-        .fontWeight(FontWeight.Bold)
-        .alignRules({
-          center: { anchor: '__container__', align: VerticalAlign.Center },
-          middle: { anchor: '__container__', align: HorizontalAlign.Center }
-        }).onClick((e)=>{
-          Toast.showSuccess("nihaoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+    Column() {
+      Blank().height(20)
+      Button("show CustomDialog normal").onClick(() => {
+
+        this.ctrl.open()
       })
+
+      Button("show CustomDialog easy").onClick(() => {
+
+        CustomDialogUtils.show()
+      }).margin({ top: 30 })
     }
     .height('100%')
     .width('100%')
@@ -48,10 +55,8 @@ struct Index {
         console.log("data.area.bottomRect.height:" + data.area.bottomRect.height)
 
 
-
       })
 
     })
   }
-
 }
